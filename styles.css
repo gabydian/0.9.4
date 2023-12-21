@@ -1,0 +1,109 @@
+body{
+  height:100%;
+  background-color: black;
+}
+.container {
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+    fill: white;
+  }
+  h1 {
+    margin: 0px;
+  }
+  .cabecalho {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dotted white;
+    padding: 10px;
+  }
+  .opcoes{
+    border: none;
+    left: 4px;
+    color: blueviolet;
+    background-color: black;
+    width: 10px;
+    height: 10px;
+  }
+  .textorecebido {
+    position: relative;
+    align-self: flex-start;
+    width: fit-content;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-botton: 4px;
+    fill: blue;
+    background-color: darkgray;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    padding-right: 30px;
+  }
+.textorecebido button {
+  background-color: darkgray;
+  position: absolute;
+  border: 0;
+  top: 15px;
+  right: 0;
+  
+}
+.textorecebido svg {
+  background-color: darkgray;
+  position: absolute;
+  border: 0;
+  bottom: 0;
+  right: 7px;
+}
+  .textoenviado {
+  position: relative;
+  align-self: flex-end;
+  width: fit-content;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-botton: 4px;
+  hover: 5px;
+  fill: white;
+  background-color: green;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px;
+  padding-right: 30px;
+  right: 2px;
+  }
+
+.textoenviado button {
+  background-color: transparent;
+  position: absolute;
+  border: 0;
+  top: 15px;
+  right: 0;
+}
+
+.textoenviado svg {
+  background-color: transparent;
+  position: absolute;
+  border: 0;
+  bottom: 0;
+  right: 7px;
+}
+.mensagens{
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  gap: 10px;
+}
+.mensagens .arrow svg {
+  fill: transparent;
+}
+
+.textorecebido:hover .arrow svg {
+  fill: black;
+}
+.textoenviado:hover .arrow svg {
+  fill: black;
+}
